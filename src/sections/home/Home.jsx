@@ -9,6 +9,9 @@ export default function Home() {
       <Link to="/tours" className="underline text-blue-500">
         Tours
       </Link>
+      <Link to="/reviews" className="underline text-blue-500">
+        Reviews
+      </Link>
     </div>
   );
 }
