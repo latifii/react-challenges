@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Loading from "./Loading";
 import Tour from "./Tour";
+import TitlePage from "../../components/TitlePage";
 
 const url = "https://course-api.com/react-tours-project";
 
@@ -53,9 +54,7 @@ export default function Tours() {
 
   return (
     <div className={backgroundClass}>
-      <h1 className="text-gray-800 text-4xl font-bold text-center mb-20 relative before:content-[''] before:absolute before:-bottom-4 before:left-0 before:right-0 before:mx-auto   before:w-1/10 before:h-1 before:bg-blue-400">
-        Our Tours
-      </h1>
+      <TitlePage title="our tours" />
       <div className="grid grid-cols-3 gap-5">
         {dataTours.map((tour) => (
           <Tour key={tour.id} {...tour} handleDelete={handleDelete} />

@@ -5,6 +5,7 @@ import Tours from "../challanges/02-tours/Tours";
 import Reviews from "../challanges/03-reviews/reviews";
 import Accordion from "../challanges/04-accordion-I/Accordion";
 import AccordionII from "../challanges/05-accordion-II/AccordionII";
+import Menu from "../challanges/06-menu/Menu";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/accordion-II",
     element: <AccordionII />,
+  },
+  {
+    path: "/menu",
+    element: <Menu />,
   },
 ]);
 

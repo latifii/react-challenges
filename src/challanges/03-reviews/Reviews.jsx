@@ -3,6 +3,7 @@ import { FaAngleRight } from "react-icons/fa6";
 import { FaAngleLeft } from "react-icons/fa6";
 import { FaQuoteRight } from "react-icons/fa6";
 import reviews from "./data";
+import TitlePage from "../../components/TitlePage";
 const backgroundClass = "bg-blue-50 min-h-screen py-10 px-10";
 
 export default function Reviews() {
@@ -32,9 +33,7 @@ export default function Reviews() {
 
   return (
     <div className={backgroundClass}>
-      <h1 className="text-gray-800 text-4xl font-bold text-center capitalize mb-10 relative before:content-[''] before:absolute before:-bottom-4 before:left-0 before:right-0 before:mx-auto   before:w-1/10 before:h-1 before:bg-blue-400">
-        our reviews
-      </h1>
+      <TitlePage title="our reviews" />
       <div className="w-1/2 mx-auto  p-5 bg-white rounded-md shadow-2xl flex flex-col items-center">
         <div className="relative">
           <img

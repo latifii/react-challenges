@@ -18,6 +18,9 @@ export default function Home() {
       <Link to="/accordion-II" className="underline text-blue-500">
         Accordion II
       </Link>
+      <Link to="/menu" className="underline text-blue-500">
+        Menu
+      </Link>
     </div>
   );
 }
