@@ -3,6 +3,8 @@ import Home from "../sections/home/Home";
 import BirthdayReminder from "../challanges/01-birthday-reminder/BirthdayReminder";
 import Tours from "../challanges/02-tours/Tours";
 import Reviews from "../challanges/03-reviews/reviews";
+import Accordion from "../challanges/04-accordion-I/Accordion";
+import AccordionII from "../challanges/05-accordion-II/AccordionII";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,15 @@ const router = createBrowserRouter([
   {
     path: "/reviews",
     element: <Reviews />,
+  },
+  {
+    path: "/accordion",
+    element: <Accordion />,
+  },
+
+  {
+    path: "/accordion-II",
+    element: <AccordionII />,
   },
 ]);
 

@@ -12,6 +12,12 @@ export default function Home() {
       <Link to="/reviews" className="underline text-blue-500">
         Reviews
       </Link>
+      <Link to="/accordion" className="underline text-blue-500">
+        Accordion
+      </Link>
+      <Link to="/accordion-II" className="underline text-blue-500">
+        Accordion II
+      </Link>
     </div>
   );
 }
