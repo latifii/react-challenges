@@ -8,6 +8,7 @@ import AccordionII from "../challanges/05-accordion-II/AccordionII";
 import Menu from "../challanges/06-menu/Menu";
 import Tabs from "../challanges/06-tabs/Tabs";
 import Slider from "../challanges/07-slider/Slider";
+import Lorem from "../challanges/08-lorem-ipsum/Lorem";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
   {
     path: "/slider",
     element: <Slider />,
+  },
+  {
+    path: "/lorem",
+    element: <Lorem />,
   },
 ]);
 

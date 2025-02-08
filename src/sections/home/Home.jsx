@@ -27,6 +27,9 @@ export default function Home() {
       <Link to="/slider" className="underline text-blue-500">
         Slider
       </Link>
+      <Link to="/lorem" className="underline text-blue-500">
+        Lorem ipsup generate
+      </Link>
     </div>
   );
 }
