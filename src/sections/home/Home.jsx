@@ -24,6 +24,9 @@ export default function Home() {
       <Link to="/tabs" className="underline text-blue-500">
         Tabs
       </Link>
+      <Link to="/slider" className="underline text-blue-500">
+        Slider
+      </Link>
     </div>
   );
 }
