@@ -21,6 +21,9 @@ export default function Home() {
       <Link to="/menu" className="underline text-blue-500">
         Menu
       </Link>
+      <Link to="/tabs" className="underline text-blue-500">
+        Tabs
+      </Link>
     </div>
   );
 }

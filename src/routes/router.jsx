@@ -6,6 +6,7 @@ import Reviews from "../challanges/03-reviews/Reviews";
 import Accordion from "../challanges/04-accordion-I/Accordion";
 import AccordionII from "../challanges/05-accordion-II/AccordionII";
 import Menu from "../challanges/06-menu/Menu";
+import Tabs from "../challanges/06-tabs/Tabs";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/menu",
     element: <Menu />,
+  },
+  {
+    path: "/tabs",
+    element: <Tabs />,
   },
 ]);
 
