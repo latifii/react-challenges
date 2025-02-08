@@ -34,7 +34,7 @@ export default function Reviews() {
   return (
     <div className={backgroundClass}>
       <TitlePage title="our reviews" />
-      <div className="w-1/2 mx-auto  p-5 bg-white rounded-md shadow-2xl flex flex-col items-center">
+      <div className="w-1/2 mx-auto p-5 bg-white rounded-md shadow-2xl flex flex-col items-center">
         <div className="relative">
           <img
             className="w-40 h-40 rounded-full object-cover mb-5"
