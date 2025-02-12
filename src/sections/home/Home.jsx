@@ -30,6 +30,9 @@ export default function Home() {
       <Link to="/lorem" className="underline text-blue-500">
         Lorem ipsup generate
       </Link>
+      <Link to="/color-generator" className="underline text-blue-500">
+        Color Generator
+      </Link>
     </div>
   );
 }

@@ -6,9 +6,10 @@ import Reviews from "../challanges/03-reviews/Reviews";
 import Accordion from "../challanges/04-accordion-I/Accordion";
 import AccordionII from "../challanges/05-accordion-II/AccordionII";
 import Menu from "../challanges/06-menu/Menu";
-import Tabs from "../challanges/06-tabs/Tabs";
+import Tabs from "../challanges/09-tabs/Tabs";
 import Slider from "../challanges/07-slider/Slider";
 import Lorem from "../challanges/08-lorem-ipsum/Lorem";
+import ColorGenerator from "../challanges/10-color-generator/ColorGenerator";
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
   {
     path: "/lorem",
     element: <Lorem />,
+  },
+  {
+    path: "/color-generator",
+    element: <ColorGenerator />,
   },
 ]);
 
