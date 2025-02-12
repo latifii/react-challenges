@@ -10,6 +10,7 @@ import Tabs from "../challanges/09-tabs/Tabs";
 import Slider from "../challanges/07-slider/Slider";
 import Lorem from "../challanges/08-lorem-ipsum/Lorem";
 import ColorGenerator from "../challanges/10-color-generator/ColorGenerator";
+import ToDoList from "../challanges/11-todo-list/ToDoList";
 
 const router = createBrowserRouter([
   {
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
   {
     path: "/color-generator",
     element: <ColorGenerator />,
+  },
+  {
+    path: "/todo-list",
+    element: <ToDoList />,
   },
 ]);
 

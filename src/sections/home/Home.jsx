@@ -33,6 +33,9 @@ export default function Home() {
       <Link to="/color-generator" className="underline text-blue-500">
         Color Generator
       </Link>
+      <Link to="/todo-list" className="underline text-blue-500">
+        To Do List
+      </Link>
     </div>
   );
 }
