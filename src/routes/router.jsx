@@ -11,6 +11,7 @@ import Slider from "../challanges/07-slider/Slider";
 import Lorem from "../challanges/08-lorem-ipsum/Lorem";
 import ColorGenerator from "../challanges/10-color-generator/ColorGenerator";
 import ToDoList from "../challanges/11-todo-list/ToDoList";
+import AppSidebar from "../challanges/12-sidebar-modal/AppSidebar";
 
 const router = createBrowserRouter([
   {
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
   {
     path: "/todo-list",
     element: <ToDoList />,
+  },
+  {
+    path: "/sidebar-modal",
+    element: <AppSidebar />,
   },
 ]);
 

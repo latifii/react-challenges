@@ -36,6 +36,9 @@ export default function Home() {
       <Link to="/todo-list" className="underline text-blue-500">
         To Do List
       </Link>
+      <Link to="/sidebar-modal" className="underline text-blue-500">
+        Sidebar and Modak
+      </Link>
     </div>
   );
 }
